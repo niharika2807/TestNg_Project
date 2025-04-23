@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PizzahutAutomation
+Bundle-SymbolicName: PizzahutAutomation
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Automatic-Module-Name: PizzahutAutomation
+Export-Package: com.simplilearn.PizzahutAutomation,
+ features,
+ stepDefs

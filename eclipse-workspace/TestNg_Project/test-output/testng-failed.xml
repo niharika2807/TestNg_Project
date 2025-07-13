@@ -6,12 +6,10 @@
       <class name="swaglab_test.LoginTest">
         <methods>
           <include name="SetUp"/>
-          <include name="LoginFailureTest"/>
-          <include name="LoginSuccessTest"/>
+          <include name="LoginFailureTestFromExcel"/>
           <include name="SetUpExcel"/>
           <include name="CloseExcel"/>
           <include name="TearDown"/>
-          <include name="LockedUserLoginFailureTest"/>
         </methods>
       </class> <!-- swaglab_test.LoginTest -->
     </classes>

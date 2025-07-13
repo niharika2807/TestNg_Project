@@ -9,10 +9,8 @@
   	</groups>
   
     <classes>
-      <class name="testng.AnnotationsExample"/>
-      <class name="testng.AnnotationsExample2"/>
+      <class name="swaglab_test.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-
 

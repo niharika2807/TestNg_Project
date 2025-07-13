@@ -28,13 +28,24 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.27.0</version>
 		</dependency>
-		
+
+	
+
 		
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-firefox-driver</artifactId>
     <version>4.27.0</version>
 </dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.15.0</version>
+		</dependency>
+
+
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 	<dependency>
 	    <groupId>org.apache.poi</groupId>
@@ -42,6 +53,8 @@
 	    <version>4.1.2</version>
 	</dependency>
 	
+
+
 
   	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 	<dependency>
@@ -61,16 +74,8 @@
 
 
 
-
-	<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.15.0</version>
-</dependency>
-
-
-
   </dependencies>
+
 <build>
 		<plugins>
 			<plugin>
@@ -93,5 +98,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

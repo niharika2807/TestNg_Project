@@ -1,9 +1,7 @@
 package swaglab_test;
 
-
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -11,52 +9,41 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listener implements ITestListener{
+public class Listener implements ITestListener {
 
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void onTestFailure(ITestResult result) {
+        TakesScreenshot screenshot = (TakesScreenshot) BaseClass.driver;
+        File source = screenshot.getScreenshotAs(OutputType.FILE);
 
-	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+        String screenshotDir = "screenshots";
+        new File(screenshotDir).mkdirs(); // Ensure directory exists
 
-	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-		TakesScreenshot obj = (TakesScreenshot) BaseClass.driver;
-		File source = obj.getScreenshotAs(OutputType.FILE);
-		File target = new File(result.getName() + ".png");
-		try {
-			FileUtils.copyFile(source,target);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        File target = new File(screenshotDir + "/" + result.getName() + ".png");
+        try {
+            FileUtils.copyFile(source, target);
+            System.out.println("Screenshot saved: " + target.getAbsolutePath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-		
-	}
+    // Optional: Empty method implementations if you don't want custom behavior
+    @Override
+    public void onTestStart(ITestResult result) {}
 
-	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void onTestSuccess(ITestResult result) {}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void onTestSkipped(ITestResult result) {}
 
-	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {}
 
-	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void onStart(ITestContext context) {}
 
+    @Override
+    public void onFinish(ITestContext context) {}
 }

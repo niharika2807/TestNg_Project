@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 6.875 s <<< FAILURE! - in TestSuite
+swaglab_test.LoginTest.setUp  Time elapsed: 4.69 s  <<< FAILURE!
+java.lang.IllegalStateException: Sheet named 'data' not found!
+
+swaglab_test.ProductsTest.setUp  Time elapsed: 6.665 s  <<< FAILURE!
+java.lang.IllegalStateException: Sheet named 'data' not found!
+

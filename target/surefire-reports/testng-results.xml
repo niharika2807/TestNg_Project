@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-19T10:32:10Z" name="SwagLabsSuite" finished-at="2025-07-19T10:32:57Z" duration-ms="46438">
+    <groups>
+    </groups>
+    <test started-at="2025-07-19T10:32:10Z" name="SwagLabsTests" finished-at="2025-07-19T10:32:57Z" duration-ms="46438">
+      <class name="swaglab_test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:10Z" name="setUp" finished-at="2025-07-19T10:32:29Z" duration-ms="18628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFromExcel()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:29Z" name="loginFromExcel" finished-at="2025-07-19T10:32:32Z" duration-ms="3115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:32Z" name="tearDown" finished-at="2025-07-19T10:32:33Z" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:33Z" name="setUp" finished-at="2025-07-19T10:32:41Z" duration-ms="8043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFromProperties()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:41Z" name="loginFromProperties" finished-at="2025-07-19T10:32:45Z" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFromProperties -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:45Z" name="tearDown" finished-at="2025-07-19T10:32:46Z" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:46Z" name="setUp" finished-at="2025-07-19T10:32:52Z" duration-ms="5817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSuccessTest()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:52Z" name="loginSuccessTest" finished-at="2025-07-19T10:32:56Z" duration-ms="3886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@20d3d15a]" started-at="2025-07-19T10:32:56Z" name="tearDown" finished-at="2025-07-19T10:32:57Z" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglab_test.LoginTest -->
+    </test> <!-- SwagLabsTests -->
+  </suite> <!-- SwagLabsSuite -->
+</testng-results>

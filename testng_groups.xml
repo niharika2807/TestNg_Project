@@ -9,7 +9,9 @@
   	</groups>
   
     <classes>
-      <class name="swaglab_test.LoginTest"/>
+         <class name="swaglab_test.LoginTest" />
+            <class name="swaglab_test.AddToCartTest" />
+            <class name="swaglab_test.LogoutTest" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

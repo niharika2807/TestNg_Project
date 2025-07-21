@@ -8,5 +8,4 @@ swaglab_test\Listener.class
 testng\AnnotationsExample.class
 testng\BaseClass.class
 swaglab_pages\LoginPage.class
-swaglab_test\BaseClass$1.class
 testng\SkipTestDemo.class

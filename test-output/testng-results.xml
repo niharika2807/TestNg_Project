@@ -1,111 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-19T15:39:29 IST" name="SwagLabsSuite" finished-at="2025-07-19T15:40:43 IST" duration-ms="74486">
+  <suite started-at="2025-07-21T21:31:48 IST" name="Default suite" finished-at="2025-07-21T21:32:02 IST" duration-ms="14649">
     <groups>
     </groups>
-    <test started-at="2025-07-19T15:39:29 IST" name="SwagLabsTests" finished-at="2025-07-19T15:40:43 IST" duration-ms="74486">
+    <test started-at="2025-07-21T21:31:48 IST" name="Default test" finished-at="2025-07-21T21:32:02 IST" duration-ms="14649">
       <class name="swaglab_test.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:39:29 IST" name="setUp" finished-at="2025-07-19T15:39:49 IST" duration-ms="20020" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:48 IST" name="SetUp" finished-at="2025-07-21T21:31:54 IST" duration-ms="5946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginFromExcel()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:39:49 IST" name="loginFromExcel" finished-at="2025-07-19T15:39:53 IST" duration-ms="3361" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginFromExcel()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:54 IST" name="loginFromExcel" finished-at="2025-07-21T21:31:55 IST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFromExcel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:39:53 IST" name="tearDown" finished-at="2025-07-19T15:39:54 IST" duration-ms="1772" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:55 IST" name="tearDown" finished-at="2025-07-21T21:31:55 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:39:54 IST" name="setUp" finished-at="2025-07-19T15:40:03 IST" duration-ms="8737" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:55 IST" name="SetUp" finished-at="2025-07-21T21:31:58 IST" duration-ms="2816" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginFromProperties()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:40:03 IST" name="loginFromProperties" finished-at="2025-07-19T15:40:05 IST" duration-ms="2160" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginFromProperties()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:58 IST" name="loginFromProperties" finished-at="2025-07-21T21:31:58 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFromProperties -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:40:05 IST" name="tearDown" finished-at="2025-07-19T15:40:06 IST" duration-ms="972" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:58 IST" name="tearDown" finished-at="2025-07-21T21:31:59 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:40:06 IST" name="setUp" finished-at="2025-07-19T15:40:15 IST" duration-ms="9081" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:31:59 IST" name="SetUp" finished-at="2025-07-21T21:32:02 IST" duration-ms="2877" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginSuccessTest()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:40:15 IST" name="loginSuccessTest" finished-at="2025-07-19T15:40:18 IST" duration-ms="2256" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginSuccessTest()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:32:02 IST" name="loginSuccessTest" finished-at="2025-07-21T21:32:02 IST" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@49438269]" started-at="2025-07-19T15:40:18 IST" name="tearDown" finished-at="2025-07-19T15:40:19 IST" duration-ms="1071" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.LoginTest@61322f9d]" started-at="2025-07-21T21:32:02 IST" name="tearDown" finished-at="2025-07-21T21:32:02 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- swaglab_test.LoginTest -->
-      <class name="swaglab_test.ProductsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swaglab_test.ProductsTest@17f7cd29]" started-at="2025-07-19T15:40:19 IST" name="setUp" finished-at="2025-07-19T15:40:24 IST" duration-ms="4916" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addToCartTest()[pri:0, instance:swaglab_test.ProductsTest@17f7cd29]" started-at="2025-07-19T15:40:24 IST" name="addToCartTest" finished-at="2025-07-19T15:40:43 IST" duration-ms="19389" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "inventory-item.html". Current url: "https://www.saucedemo.com/inventory.html" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.157, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\NIHARI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53576/devtoo..., se:cdpVersion: 138.0.7204.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecec07d51e44794b02d53bf4ba2946ca]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "inventory-item.html". Current url: "https://www.saucedemo.com/inventory.html" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.157, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\NIHARI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53576/devtoo..., se:cdpVersion: 138.0.7204.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecec07d51e44794b02d53bf4ba2946ca
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at swaglab_test.ProductsTest.addToCartTest(ProductsTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_test.ProductsTest@17f7cd29]" started-at="2025-07-19T15:40:43 IST" name="tearDown" finished-at="2025-07-19T15:40:43 IST" duration-ms="464" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- swaglab_test.ProductsTest -->
-    </test> <!-- SwagLabsTests -->
-  </suite> <!-- SwagLabsSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
